@@ -1,0 +1,11 @@
+1.Napisz program, który symuluje ciasteczko z wróżbą. Program powinienwyświetlić jedną z pięciu niepowtarzalnych przepowiedni,
+  dokonując losowegowyboru przy każdym uruchomieniu.
+
+2.Napisz program, który „rzuca” 100 razy monetą, a następnie podajeużytkownikowi liczbę orzełków i reszek.
+
+3.Zmodyfikuj program Jaka to liczba? tak, aby gracz dysponował ograniczonąliczbą prób odgadnięcia wybranej przez komputer liczby.
+  Gdy graczowi nie udasię odgadnąć tej liczby w wyznaczonej liczbie prób, program powinienwyświetlić odpowiedni komunikat z reprymendą.
+
+.Tym razem trudniejsze wyzwanie. Napisz pseudokod do programu, w którymgracz i komputer zamienią się rolami w grze z odgadywaniem liczby.
+ To znaczygracz wybiera losowo liczbę z przedziału od 1 do 100, a komputer ma jąodgadnąć. Zanim rozpoczniesz tworzenie algorytmu, pomyśl,
+ w jaki sposóbsam byś zgadywał. Jeśli wszystko się uda, spróbuj napisać kod gry.
