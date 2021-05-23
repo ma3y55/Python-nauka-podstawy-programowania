@@ -1,5 +1,5 @@
 #zad 1
-"""import random
+import random
 
 print("Program Ciastko z wróżbą")
 
@@ -39,7 +39,7 @@ while i<100:
         reszka+=1
 
 print("orzeł" , orzeł)
-print("reszka", reszka)"""
+print("reszka", reszka)
 
 #zad3
 import random
