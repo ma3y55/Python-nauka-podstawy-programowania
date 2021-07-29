@@ -1,3 +1,13 @@
+
+
+
+
+
+"""
+1. Napisz program, który liczy za użytkownika. Umożliw użytkownikowi
+wprowadzenie liczby początkowej, liczby końcowej i wielkości odstępu między
+kolejnymi liczbami."""
+
 #zad 1
 while True:
     a=int(input("podaj od jakiel liczby mam zaczac"))
@@ -10,8 +20,10 @@ for i in range(a, b+1, c ):
     print(i)
 
 
-
-
+"""
+2. Utwórz program, który wczytuje komunikat użytkownika, a następnie wypisuje
+go w odwrotnej kolejności.
+"""
 #zad2
 
 
@@ -26,8 +38,12 @@ i=0
 while x<i:
     i-=1
     print(komunikat[i],end=" ")
-
-
+"""
+3. Popraw program Wymieszane litery tak, żeby każdemu słowu towarzyszyła
+podpowiedź. Gracz powinien mieć możliwość zobaczenia podpowiedzi, jeśli
+utknie w martwym punkcie. Dodaj system punktacji, który nagradza graczy
+rozwiązujących anagram bez uciekania się do podpowiedzi.
+"""
 #zad3
 import random
 
@@ -78,8 +94,13 @@ while guess!= correct and guess!= " ":
         print("zgadza sie ")
         punkty+=3
         print("liczba punktów", ujemne+punkty)
-
-
+"""
+4. Utwórz grę, w której komputer wybiera losowo słowo, które gracz musi
+odgadnąć. Komputer informuje gracza, ile liter znajduje się w wybranym
+słowie. Następnie gracz otrzymuje pięć szans na zadanie pytania, czy jakaś litera
+jest zawarta w tym słowie. Komputer może odpowiedzieć tylko „tak” lub „nie”.
+Potem gracz musi odgadnąć słowo.
+"""
 #zad4
 import random
 #gra jakie to słowo
